@@ -1,0 +1,116 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #005792;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.5em;
+}
+header nav ul {
+  list-style: none;
+  margin-top: 15px;
+}
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section styling */
+.section {
+  padding: 50px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+/* About */
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+  object-fit: cover;
+  border: 3px solid #005792;
+}
+
+/* Skills */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 15px;
+  padding: 0;
+  margin-top: 20px;
+}
+.skills-list li {
+  background: #e3f2fd;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #005792;
+  font-weight: bold;
+}
+
+/* Projects */
+.project-card {
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.project-card h3 {
+  color: #005792;
+}
+.project-card a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* Contact */
+#contact a {
+  color: #005792;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #005792;
+  color: #fff;
+}
